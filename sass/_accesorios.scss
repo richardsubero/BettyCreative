@@ -1,15 +1,15 @@
-.box_uno{
-    margin:0;
-    padding: 0;
-    display:flex;
-    flex-wrap: wrap;
+$ancho: 720px;
+$blue: rgb(219, 237, 213);
+$green: rgb(245, 245, 222);
+
+.style1{
+    background-color: $blue;
+    width: $ancho/2;
 }
 
-.box_dos{
-    margin:0;
-    padding: 0;
-    display:flex;
-    flex-wrap:wrap-reverse;
+.style2{
+    background-color: $green;
+    width: ($ancho/2)-50;
 }
 
 
