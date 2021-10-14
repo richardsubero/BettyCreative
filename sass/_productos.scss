@@ -1,13 +1,81 @@
-$ancho: 720px;
-$blue: rgb(219, 237, 213);
-$green: rgb(245, 245, 222);
+.price {
+	font-size: 22px;
+	color:hotpink;
+	font-weight: bold;
+	display: flex;
+    justify-content: center;
 
-.style1{
-    background-color: $blue;
-    width: $ancho/2;
 }
 
-.style2{
-    background-color: $green;
-    width: ($ancho/2)-50;
+.product-des {
+	border:1px solid #dedede;
+	padding:10px 15px;
 }
+
+.view-link {
+	text-align: center;
+	border: 1px solid #dedede;
+	display: block;
+	padding: 8px 10px;
+	font-size: 17px;
+	color: white;
+	font-weight: bold;
+}
+
+.view-link:hover {
+	border: 1px solid #25d0d6;
+}
+.view-link:hover i {
+	color: #fff;
+}
+.view-link i {
+	padding-right: 10px;
+	color: white;
+	-webkit-transition: .2s ease-in-out;
+	-moz-transition: .2s ease-in-out;
+	-ms-transition: .2s ease-in-out;
+	-o-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+
+.product-des .view-link {
+	background: white;
+	color: white;
+}
+
+.product-des .view-link i {
+	color: #fff;
+    background-color: white;
+}
+
+.products {
+	text-align: center;
+	margin-bottom: 65px;
+	cursor: pointer;
+}
+
+.products a img {
+	width: 100%;
+	border: 1px solid #dedede;
+	-webkit-transition: 0.3s ease-in-out;
+	-moz-transition: 0.3s ease-in-out;
+	-ms-transition: 0.3s ease-in-out;
+	-o-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+}
+.products:hover a img{
+	opacity: 0.7;
+	border: 1px solid #ce1163;
+}
+.products:hover h4 {
+	color: pink;
+}
+.products a h4 {
+	margin-top: 14px;
+	-webkit-transition: 0.2s ease-in-out;
+	-moz-transition: 0.2s ease-in-out;
+	-ms-transition: 0.2s ease-in-out;
+	-o-transition: 0.2s ease-in-out;
+	transition: 0.2s ease-in-out;
+}
+
